@@ -1,143 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Johny The Jaded</title>
-​
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0e0e0e;
-      color: white;
-      text-align: center;
-    }
-​
-    header {
-      padding: 30px 0;
-      background: #111;
-      border-bottom: 1px solid #333;
-    }
-​
-    h1 {
-      font-size: 2.5rem;
-      margin: 0;
-      font-weight: bold;
-    }
-​
-    .section {
-      padding: 50px 20px;
-    }
-​
-    .video-container {
-      width: 100%;
-      max-width: 900px;
-      margin: auto;
-    }
-​
-    iframe {
-      width: 100%;
-      height: 500px;
-      border-radius: 10px;
-      border: none;
-    }
-​
-    /* SOCIAL ICONS */
-    .social-links {
-      margin-top: 20px;
-    }
-​
-    .social-links a {
-      margin: 0 10px;
-      color: white;
-      font-size: 1.4rem;
-      text-decoration: none;
-      padding: 10px 20px;
-      background: #ff004f;
-      border-radius: 25px;
-    }
-​
-    /* Latest Uploads grid */
-    .grid {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 25px;
-      margin-top: 30px;
-    }
-​
-    .grid-item {
-      width: 300px;
-    }
-​
-    .grid-item iframe {
-      height: 180px;
-    }
-​
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JohnyKames - Official Website</title>
+<style>
+  body { font-family: Arial, sans-serif; background:#f5f7ff; margin:0; padding:0; color:#001F54;}
+  header { padding:30px; text-align:center; background:white; border-bottom:2px solid #D9E2FF;}
+  h1 { margin:0; font-size:2.5rem; color:#0037ff; }
+  .section { padding:40px 20px; max-width:1000px; margin:auto; }
+  iframe { border-radius:12px; }
+  .video-grid { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+  .video-card { width:300px; text-align:center; }
+  footer { padding:20px; text-align:center; background:#e8eeff; margin-top:40px; }
+  a { color:#0037ff; text-decoration:none; font-weight:bold; }
+</style>
 </head>
-​
 <body>
-​
-  <!-- HEADER -->
-  <header>
-    <h1>Johny The Jaded</h1>
-​
-    <div class="social-links">
-      <a href="https://www.youtube.com/channel/UC7Xgq-r5JdXdS9-rd2IgXAQ" target="_blank">YouTube</a>
-      <a href="https://www.instagram.com/johny_the_jaded" target="_blank">Instagram</a>
+
+<header>
+  <h1>JohnyKames</h1>
+  <p>Official Music Channel</p>
+</header>
+
+<div class="section">
+  <h2>Featured Video</h2>
+  <iframe width="100%" height="400"
+    src="https://www.youtube.com/embed/MwMXmqx99HU?autoplay=1&loop=1&playlist=MwMXmqx99HU"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
+
+<div class="section">
+  <h2>Support Me</h2>
+  <p>If you like my music, support me with any amount :heart:</p>
+  <form>
+    <script src="https://checkout.razorpay.com/v1/payment-button.js"
+      data-payment_button_id="pl_Rfw8VAnhVOwCX1" async> </script>
+  </form>
+</div>
+
+<div class="section">
+  <h2>Latest Uploads</h2>
+  <div class="video-grid">
+
+    <div class="video-card">
+      <iframe width="100%" height="170"
+        src="https://www.youtube.com/embed/bXtkiDGVmUE"
+        allowfullscreen></iframe>
+      <p>Latest Video 1</p>
     </div>
-  </header>
-​
-  <!-- MAIN VIDEO -->
-  <section class="section">
-    <h2 style="font-size: 2rem; margin-bottom: 20px;">Featured Video</h2>
-​
-    <div class="video-container">
-      <iframe
-        src="https://www.youtube.com/embed/MwMXmqx99HU?autoplay=1&mute=1&loop=1&playlist=MwMXmqx99HU"
-        allow="autoplay; encrypted-media"
-        allowfullscreen>
-      </iframe>
+
+    <div class="video-card">
+      <iframe width="100%" height="170"
+        src="https://www.youtube.com/embed/h7kGbIzV-_4"
+        allowfullscreen></iframe>
+      <p>Latest Video 2</p>
     </div>
-  </section>
-​
-  <!-- LAST UPLOADS -->
-  <section class="section">
-    <h2 style="font-size: 2rem;">Latest Uploads</h2>
-​
-    <div class="grid">
-​
-      <!-- Video 1 -->
-      <div class="grid-item">
-        <iframe
-          src="https://www.youtube.com/embed/bXtkiDGVmUE"
-          allowfullscreen>
-        </iframe>
-        <p>Latest Video 1</p>
-      </div>
-​
-      <!-- Video 2 -->
-      <div class="grid-item">
-        <iframe
-          src="https://www.youtube.com/embed/h7kGbIzV-_4"
-          allowfullscreen>
-        </iframe>
-        <p>Latest Video 2</p>
-      </div>
-​
-      <!-- Video 3 -->
-      <div class="grid-item">
-        <iframe
-          src="https://www.youtube.com/embed/ZB9U2avH5uA"
-          allowfullscreen>
-        </iframe>
-        <p>Latest Video 3</p>
-      </div>
-​
+
+    <div class="video-card">
+      <iframe width="100%" height="170"
+        src="https://www.youtube.com/embed/ZB9U2avH5uA"
+        allowfullscreen></iframe>
+      <p>Latest Video 3</p>
     </div>
-  </section>
-​
+
+  </div>
+</div>
+
+<footer>
+  <p>Follow me:</p>
+  <a href="https://www.youtube.com/@johnykames" target="_blank">YouTube</a> |
+  <a href="https://www.instagram.com/johny_the_jaded" target="_blank">Instagram</a>
+</footer>
+
 </body>
 </html>
